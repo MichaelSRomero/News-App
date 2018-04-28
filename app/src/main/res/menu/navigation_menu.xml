@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_latest_news"
+        android:icon="@mipmap/ic_newspaper"
+        android:title="Latest News"></item>
+
+    <item
+        android:id="@+id/nav_environment"
+        android:icon="@mipmap/ic_environment"
+        android:title="Environment"></item>
+
+    <item
+        android:id="@+id/nav_fashion"
+        android:icon="@mipmap/ic_fashion"
+        android:title="Fashion"></item>
+
+    <item
+        android:id="@+id/nav_film"
+        android:icon="@mipmap/ic_film"
+        android:title="Film"></item>
+
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@mipmap/ic_music"
+        android:title="Music"></item>
+
+    <item
+        android:id="@+id/nav_politics"
+        android:icon="@mipmap/ic_politics"
+        android:title="Politics"></item>
+
+    <item
+        android:id="@+id/nav_world_news"
+        android:icon="@mipmap/ic_worldwide"
+        android:title="World News"></item>
+
+</menu>

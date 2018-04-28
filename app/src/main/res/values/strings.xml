@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_articles">No articles found.</string>
+
+    <string name="no_internet_connection">
+        No internet connection.\n
+        Try:\n
+        Turning off Airplane mode\n
+        Turning on mobile data or Wi-fi\n
+        Checking the signal in your area
+    </string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="news_latest">Latest News</string>
+    <string name="news_environment">Environment</string>
+    <string name="news_fashion">Fashion</string>
+    <string name="news_film">Film</string>
+    <string name="news_music">Music</string>
+    <string name="news_politics">Politics</string>
+    <string name="news_world">World News</string>
+    <string name="tv_by_line">by</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_8dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/thumbnail_size"
+        android:layout_height="@dimen/thumbnail_size"
+        android:layout_margin="@dimen/layout_8dp" />
+
+    <TextView
+        android:id="@+id/headline"
+        style="@style/ListItem"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginRight="@dimen/layout_16dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/ListItem"
+        android:layout_below="@+id/headline"
+        android:layout_marginTop="@dimen/layout_4dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        tools:text="Jan 14th, 2018" />
+
+    <TextView
+        android:id="@+id/by_text"
+        style="@style/ListItem"
+        android:layout_below="@+id/headline"
+        android:layout_marginTop="@dimen/layout_4dp"
+        android:layout_toRightOf="@+id/date"
+        android:text="@string/tv_by_line" />
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/ListItem"
+        android:layout_below="@+id/headline"
+        android:layout_marginTop="@dimen/layout_4dp"
+        android:layout_toRightOf="@+id/by_text"
+        android:maxLines="1"
+        android:textStyle="bold"
+        tools:text="Michael Romero" />
+
+    <TextView
+        android:id="@+id/section_id"
+        style="@style/ListItem"
+        android:layout_below="@+id/author"
+        android:layout_marginTop="@dimen/layout_4dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="@dimen/layout_8dp"
+        android:paddingRight="@dimen/layout_8dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        tools:text="Health" />
+
+</RelativeLayout>
